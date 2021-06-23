@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+body{
+  background: linear-gradient(90deg,pink,aqua);
+  text-align: center;
+}
+.heading{
+ font-family: 'Raleway', sans-serif;
+ font-size: 40px;
+}
+#location{
+  font-family: 'Raleway', sans-serif;
+  position: absolute;
+  top: 95px;
+  left: 40px;
+}
+#summary{
+  font-family: 'Raleway', sans-serif;
+  text-transform: uppercase;
+  top: 280px;
+  left: 40px;
+  position: absolute;
+}
+#humid{
+  font-family: 'Ubuntu', sans-serif;
+  position: absolute;
+  top: 180px;
+  left: 40px;
+}
+#temperature{
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 60px;
+  position: absolute;
+  top: 0px;
+  left: 40px;
+}
+span{
+  color: rgb(7, 7, 160);
+}
+#icon{
+  height: 300px;
+  width: 300px;
+  right: 40px;
+  position: absolute;
+}
+.holder{
+  width: 600px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  height: 70%;
+  text-align: center;
+  box-shadow: 0 0 20px black;
+  border-radius: 40px;
+  backdrop-filter: brightness(105%);
+}
+#coords{
+  font-family: 'ubuntu', sans-serif;
+  left: 40px;
+  position: absolute;
+  top: 430px;
+}
+.line{
+  position: absolute;
+  width: 100%;
+  height: 1px;
+  background-color: black;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+#pressure{
+  font-family: 'Ubuntu', sans-serif;
+  position: absolute;
+  left: 40px;
+  top: 360px;
+}
